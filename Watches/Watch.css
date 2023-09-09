@@ -1,0 +1,254 @@
+html {
+  font-family: 'League Spartan', sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  position: relative;
+  margin: auto;
+  background-color: #F8F8F8;
+  width: 1440px;
+  height: 900px;
+}
+.headertext {
+  display: flex;
+  padding-left: 133px;
+  padding-top: 104px;
+  padding-bottom: 224;
+}
+h1 {
+  width: 135px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 44px;
+}
+h2{
+  position: absolute;
+  top: 189px;
+  left: 133px;
+  width: 877px;
+  height: 215px;
+  font-size: 250px;
+  line-height: 230px;
+}
+.headerimg {
+  position: absolute;
+  top: 4px;
+  left: 792px;
+}
+.pfirst {
+  position: absolute;
+  top: 447px;
+  left: 135px;
+  width: 575px;
+  height: 142px;
+  font-size: 32px;
+  font-weight: 300px;
+  font-style: normal;
+  line-height: 155%;
+}
+.buttonfirst {
+  position: absolute;
+  left: 208px;
+  top: 676px;
+  width: 131px;
+  height: 21px;
+  font-size: 32px;
+  font-weight: 300px;
+  line-height: normal;
+  color: aliceblue;
+}
+.buttoncontainer {
+  position: absolute;
+  top: 650px;
+  left: 135px;
+  padding-left: 125px;
+  padding-right: 150px;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  background-color: black;
+}
+.forbuttonfirst {
+  position: absolute;
+  left: 441px;
+  top: 663px;
+  width: 88px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: 300px;
+  line-height: 186%;
+  background: #FFFFFF;
+}
+.forfor {
+  position: absolute;
+  left: 413px;
+  top: 650px;
+  width: 143px;
+  height: 82px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+}
+.containerforbutton {
+  position: absolute;
+  top: 650px;
+  left: 413px;
+  padding-left: 71px;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  padding-right: 71px;
+  background-color: #F8F8F8(208, 100%, 97%);
+}
+.maincontainer {
+  margin: auto;
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+h4 {
+  text-align: center;
+  position: absolute;
+  left: 621px;
+  top: 43px;
+  width: 171px;
+  height: 41px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 186%;
+}
+.models {
+  position: absolute;
+  text-align: center;
+  left: 564px;
+  top: 84px;
+  width: 285px;
+  height: 62px;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 112%;
+
+}
+.formainimg1 {
+  position: absolute;
+  left: 511px;
+  top: 230px;
+  width: 417px;
+  height: 630px;
+  background-color: #F8F8F8;
+}
+
+.mainimg1 {
+  position: absolute;
+  left: 582px;
+  top: 340px;
+}
+.son {
+  position: absolute;
+  left: 576px;
+  top: 927px;
+  width: 285px;
+  height: 27px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+.forson {
+  position: absolute;
+  left: 454px;
+  top: 971px;
+  width: 531px;
+  height: 194px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+}
+.mainimg2 {
+  position: absolute;
+  left: 470px;
+  top: 1315px;
+
+}
+.formainimg2 {
+  position: absolute;
+  top: 1250px;
+  left: 472px;
+  width: 496px;
+  height: 630px;
+  background: #F8F8F8;
+}
+.Sw12 {
+  position: absolute;
+  left: 687px;
+  top: 1946px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+.forsw12 {
+  position: absolute;
+  left: 465px;
+  top: 1993px;
+  width: 510px;
+  height: 196px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+}
+.pd {
+  position: absolute;
+  left: 234px;
+  top: 2248px;
+  width: 972px;
+  height: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 186%;
+}
+.line {
+  position: absolute;
+  left: 631px;
+  top: 2307px;
+  width: 178px;
+  height: 1px;
+  background: #707070;
+}
+.forpd {
+  position: absolute;
+  top: 2356px;
+  left: 464px;
+  width: 515px;
+  height: 231px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 170%;
+}
+.inforpd {
+  text-decoration-line: underline;
+  color: #BB8B5D;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
